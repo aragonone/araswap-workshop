@@ -1,6 +1,6 @@
 {
   "appName": "araswap.aragonpm.eth",
-  "path": "contracts/CounterApp.sol",
+  "path": "contracts/Araswap.sol",
   "roles": [
     {
       "name": "Increment the counter",
