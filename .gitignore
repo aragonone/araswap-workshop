@@ -5,3 +5,5 @@ cache
 dist
 ipfs.cmd
 package-lock.json
+coverage
+coverage.json

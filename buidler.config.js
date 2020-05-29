@@ -3,6 +3,8 @@ const { usePlugin } = require('@nomiclabs/buidler/config')
 const hooks = require('./scripts/buidler-hooks')
 
 usePlugin('@aragon/buidler-aragon')
+usePlugin('buidler-gas-reporter')
+usePlugin('solidity-coverage')
 
 module.exports = {
   // Default Buidler configurations. Read more about it at https://buidler.dev/config/
@@ -18,6 +20,9 @@ module.exports = {
       enabled: true,
       runs: 10000,
     },
+  },
+  gasReporter: {
+    enabled: !!process.env.GAS_REPORTER,
   },
   // Aragon plugin configuration
   aragon: {
