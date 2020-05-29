@@ -3,13 +3,8 @@
   "path": "contracts/Araswap.sol",
   "roles": [
     {
-      "name": "Increment the counter",
-      "id": "INCREMENT_ROLE",
-      "params": []
-    },
-    {
-      "name": "Decrement the counter",
-      "id": "DECREMENT_ROLE",
+      "name": "Change exchange fees",
+      "id": "CHANGE_FEES_ROLE",
       "params": []
     }
   ],
