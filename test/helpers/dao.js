@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const { hash } = require('eth-ens-namehash')
 const { getEventArgument } = require('@aragon/contract-test-helpers/events')
 const Kernel = artifacts.require('@aragon/os/build/contracts/kernel/Kernel')

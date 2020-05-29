@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const { assert } = require('chai')
 const { assertRevert } = require('@aragon/contract-test-helpers/assertThrow')
 const { newDao, newApp } = require('./helpers/dao')
